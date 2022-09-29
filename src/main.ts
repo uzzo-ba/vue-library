@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
 import './style.css'
-import App from './App.vue'
+import VueInput from "./components/ VueInput.vue"
+import VueText from "./components/ VueText.vue"
 
-createApp(App).mount('#app')
+export default {
+    install: (app: any, options: any) => {
+        app.component("VueInput", VueInput).component("VueText", VueText)
+    }
+}
+export { VueInput, VueText }
