@@ -1,6 +1,6 @@
-import './style.css'
-import VueInput from "./components/ VueInput.vue"
-import VueText from "./components/ VueText.vue"
+//  import './style.css'
+import VueInput from "./components/VueInput.vue"
+import VueText from "./components/VueText.vue"
 
 export default {
     install: (app: any, options: any) => {

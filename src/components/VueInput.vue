@@ -11,7 +11,7 @@
       @input="onInputChange"
     />
     <div class="text-danger" v-if="errorText">
-      {{ $t(errorText) }}
+      {{ errorText }}
     </div>
   </div>
 </template>
